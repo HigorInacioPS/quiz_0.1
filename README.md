@@ -77,4 +77,4 @@ Além disso, ao final do quiz há:
 
 ## 👤 Autor
 
-Este projeto foi desenvolvido por **Seu Nome Aqui** como parte de sua jornada de aprendizado em desenvolvimento web.
+Este projeto foi desenvolvido por **Higor Inácio P. Sousa** como parte de sua jornada de aprendizado em desenvolvimento web.
