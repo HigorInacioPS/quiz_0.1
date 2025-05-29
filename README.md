@@ -1,80 +1,97 @@
-# Quiz Interativo para Programadores
 
-Este é um projeto simples de um **quiz interativo em HTML** voltado para programadores e estudantes de tecnologia. O objetivo é testar seus conhecimentos sobre linguagens de programação, conceitos básicos da web e boas práticas na área de TI.
+# Quiz Interativo para Programadores 🧠💻
 
-## 💡 Sobre o Projeto
+Este projeto é uma aplicação web simples, construída com **HTML5** e **CSS3**, que simula um **quiz interativo** voltado para pessoas que desejam testar seus conhecimentos em **programação**. Agora com uma interface **estilizada e responsiva**, o projeto oferece uma experiência visual mais agradável e organizada.
 
-O projeto foi desenvolvido utilizando apenas **HTML5**, com foco em uma estrutura clara e organizada. A proposta é oferecer um conteúdo leve, educativo e interativo, ideal para quem está iniciando na programação.
+---
 
-Ele contém diversos tipos de perguntas, incluindo:
+## 📝 Descrição
+
+O Quiz apresenta diversas perguntas sobre desenvolvimento e programação, incluindo:
+
 - Múltipla escolha
-- Campo de texto
-- Campo de senha
-- Data
-- Seleção múltipla (checkboxes)
+- Preenchimento de texto
+- Campos de senha
+- Seleção de data
+- Caixa de seleção múltipla (checkbox)
 - Upload de arquivos
-- Menu suspenso (select)
-- Identificação visual com imagem
+- Seletores (dropdown)
+- Interação com imagens
+- Tabela de pontuação
+- Respostas reveladas via `<details>`
+- Formulário de feedback
 
-Além disso, ao final do quiz há:
-- Uma **tabela de pontuação** com avaliação baseada no desempenho.
-- Uma **seção com as respostas corretas**.
-- Um **formulário de feedback** para incentivar a interação do usuário.
+---
 
-## 📸 Captura de Tela
+## 💡 Tecnologias Utilizadas
 
-> *(Você pode adicionar aqui uma imagem da página em funcionamento, se desejar)*
+- **HTML5**: estrutura e marcação da página
+- **CSS3**: estilização da interface, cores e fontes
+- **Google Fonts**: tipografia personalizada com a fonte [Cabin](https://fonts.google.com/specimen/Cabin)
 
-## 📁 Estrutura de Arquivos
+---
+
+## 🎨 Destaques do Estilo
+
+- Cores suaves e contrastes pensados para facilitar a leitura:
+  - Fundo claro: `#F4F0EA`
+  - Texto escuro: `#331F19`
+  - Destaques em verde claro: `#CCD595`
+- Layout flexível com `Flexbox`
+- Botões estilizados com `cursor: pointer` para melhor usabilidade
+- `input`, `textarea`, `select` e `button` com bordas arredondadas e foco visual
+- Tabela de pontuação com cores destacadas por seção (`thead`, `tbody`, `tfoot`)
+- Responsividade básica com espaçamento e distribuição vertical
+
+---
+
+## 📂 Estrutura de Arquivos
 
 ```
-📦 quiz-programacao
- ┣ 📂 assets
- ┃ ┗ 📄 logo.webp
- ┣ 📄 index.html
- ┗ 📄 README.md
+quiz-interativo/
+│
+├── index.html         # Página principal do quiz
+├── style.css          # Estilos visuais da aplicação
+└── assets/
+    └── logo.webp      # Logotipo usado em uma das perguntas
 ```
+
+---
 
 ## 🚀 Como Executar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/quiz-programacao.git
-   ```
+1. Clone este repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/quiz-interativo.git
+```
 
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd quiz-programacao
-   ```
+2. Acesse o diretório:
+```bash
+cd quiz-interativo
+```
 
-3. Abra o arquivo `index.html` com seu navegador:
-   - Você pode dar um duplo clique no arquivo, ou
-   - Usar uma extensão como *Live Server* no VSCode.
+3. Abra o arquivo `index.html` em seu navegador.
 
-## ✅ Funcionalidades
+---
 
-- Interface limpa e intuitiva
-- Diversidade de tipos de entrada
-- Avaliação automática baseada na pontuação
-- Respostas visíveis sob demanda
-- Formulário de contato para feedback
+## 🧪 Experiência do Usuário
 
-## 🧠 Assuntos Abordados
+- Usuário acessa a página e lê as instruções do quiz.
+- Responde às perguntas nos diversos formatos disponíveis.
+- Verifica seu desempenho consultando a tabela de pontuação.
+- Pode revisar as respostas corretas ao final.
+- Tem a opção de enviar um **feedback** diretamente pela página.
 
-- HTML
-- CSS
-- JavaScript
-- Conceitos da web (URL, domínio)
-- Segurança de senhas
-- Identificação de linguagens de programação
+---
 
-## ⚠️ Possíveis Melhorias Futuras
+## 🔗 Sobre o Autor
 
-- Inclusão de validação e verificação das respostas via JavaScript
-- Registro da pontuação do usuário
-- Banco de dados para armazenar feedbacks
-- Design responsivo com CSS
+Desenvolvido por **[Higor Inácio](https://github.com/HigorInacioPS)**  
+Siga o repositório para mais projetos como este!
 
-## 👤 Autor
+---
 
-Este projeto foi desenvolvido por **Higor Inácio P. Sousa** como parte de sua jornada de aprendizado em desenvolvimento web.
+## 📄 Licença
+
+Este projeto é de livre uso educacional. Sinta-se à vontade para clonar, modificar e compartilhar.
+
